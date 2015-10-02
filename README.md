@@ -9,6 +9,8 @@ usage
 
 1) install [Commando](https://github.com/sordina/Commando)
 
-2) run `commando -c echo | grep --line-buffered -v '.git' | conscript git-live` in your directory.
+1) install [Conscript](https://github.com/sordina/Conscript)
+
+1) run `commando -c echo | grep --line-buffered -v '.git' | conscript git-live` in your directory.
 
 Then `git-live` will, upon every file save action, add everything, commit everything, pull down changes, merge them automatically, and continue on in that fashion.
