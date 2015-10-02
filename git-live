@@ -2,6 +2,7 @@
 
 git add .
 git commit -m "git-live"
-git pull origin git-live --strategy="recursive"
+git fetch origin git-live
+git merge origin/git-live -s recursive -X ours -m "git-live auto-merge"
 git push origin master:git-live
 
