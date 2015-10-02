@@ -1,0 +1,7 @@
+#!/bin/sh
+
+git add .
+git commit -m "git-live"
+git pull origin git-live --strategy="recursive"
+git push origin master:git-live
+
